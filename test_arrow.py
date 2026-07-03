@@ -1,11 +1,15 @@
 def main():
-    n = int(input())
-    row = n+2
-    column = (n*2)-1
-    mid = n-1
-    print((" " * (n-1)) + "*")
-    for i in range(1, n):
-        print(((" " * (mid - i)) + "*") + ((" " * (i-1)) + "*") + ((" " * (i-1)) + "*"))
-    for j in range(2):
-        print((" " * (n-1)) + "*")
+    n = int(input()) # 5
+    i = 0
+    mid = n-1 # 4
+    while i < n + 2: # i < 7 (เเถวว)
+        j = 0
+        while j < n * 2 - 1: # j < 9 (คอลัมน์)
+            if (j == mid) or (j == mid - i) or (j == mid + i):
+                print("*", end="")
+            else:
+                print(" ", end="")
+            j = j + 1
+        i = i + 1
+        print()
 main()
