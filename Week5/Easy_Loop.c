@@ -6,10 +6,10 @@ int main() {
 	i = n;
 	if (i > 0) {
 		while(i != -1) {
-			printf("%d ", n);
-                 	n = n-1;
-                 	i = i-1;
-        	}
+				printf("%d ", n);
+				n = n-1;
+				i = i-1;
+			}
 	}
 	else if (i < 0) {
                 while(i != 1) {
