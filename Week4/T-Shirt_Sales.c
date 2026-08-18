@@ -3,7 +3,7 @@
 int main()
 {
 	int amount;
-       	float price, percent, discount, buy2get1;
+    float price, percent, discount, buy2get1;
 	scanf("%f %f %d", &price, &percent, &amount);
 	discount = price * amount * (1 - (percent / 100));
 	buy2get1 = price * ((amount/3) * 2 + (amount % 3));

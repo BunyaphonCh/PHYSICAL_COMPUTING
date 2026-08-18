@@ -7,19 +7,19 @@ int main() {
 	{
 		case 'A': 
 		case 'a': printf("Genius");
-			  break;
+		break;
 		case 'B': 
 		case 'b': printf("Good");
-			  break;
+		break;
 		case 'C': 
 		case 'c': printf("Try Harder");
-			  break;
+		break;
 		case 'D': 
 		case 'd': printf("Very Bad");
-			  break;
+		break;
 		case 'F': 
 		case 'f': printf("Fail");
-			  break;
+		break;
 		default: printf("Invalid Input");
 	}
 	return 0;

@@ -4,10 +4,10 @@ int main()
 {
 
 	int celsius;
-    	scanf("%d", &celsius);
+    scanf("%d", &celsius);
 
-    	double fahrenheit = (celsius * 9 / 5.00) + 32;
+    double fahrenheit = (celsius * 9 / 5.00) + 32;
     
-    	printf("%.1lf\n", fahrenheit);
-    	return 0;
+    printf("%.1lf\n", fahrenheit);
+    return 0;
 }
